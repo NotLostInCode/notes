@@ -1,6 +1,6 @@
-# Getting Started with Create App - Notes
+# Getting Started with Create App - Recording
 # Name project:
-### Notes
+### Recording
 
 # Stack i am using in this application:
 ### React, react-redux, TS
