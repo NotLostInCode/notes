@@ -7,7 +7,7 @@
 /*profile*/
 .profile {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
 
     margin: 0 0 20px 0;
@@ -38,7 +38,7 @@
 .profileSetting {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .searchDisplay {
@@ -63,7 +63,7 @@
     background: #e03854;
     text-align: center;
     border-radius: 100px;
-
+    margin: 0 0 20px 0;
 }
 .newNoteBtn {
     padding: 7px 0;
@@ -71,11 +71,21 @@
 
 /*note-lists*/
 .notesList {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .notes {
-}
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
 
+}
+.notes:nth-last-child(2) {
+    margin-bottom: 50px;
+}
 .notesImage {
 }
 
