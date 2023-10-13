@@ -1,0 +1,83 @@
+.aside {
+    flex: 0 0 300px;
+    padding: 15px 15px;
+    background-color: rgb(81, 73, 131);
+}
+
+/*profile*/
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 0 20px 0;
+}
+
+.profileItem {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.profileAvatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileName {
+}
+
+.profileSetting {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchDisplay {
+}
+
+.setting {
+}
+
+.searchNote {
+    border-radius: 100px;
+    background-color: rgb(38, 31, 71);
+    margin: 0 0 10px 0;
+}
+
+.search {
+    padding: 7px 8px;
+    color: rgb(155, 146, 205);
+}
+
+
+.newNote {
+    background: #e03854;
+    text-align: center;
+    border-radius: 100px;
+
+}
+.newNoteBtn {
+    padding: 7px 0;
+}
+
+/*note-lists*/
+.notesList {
+}
+
+.notes {
+}
+
+.notesImage {
+}
+
+.notesName {
+}
