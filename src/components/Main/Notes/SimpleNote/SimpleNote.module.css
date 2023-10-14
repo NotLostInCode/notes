@@ -1,0 +1,40 @@
+.simpleNote {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #261f47ff;
+    font-size: 20px;
+}
+
+.simpleNoteItem {
+    background-color: rgb(218, 187, 250);
+}
+
+.noteItem {
+    height: 180px;
+    border-radius: 24px;
+    flex: 0 0 500px;
+}
+
+.simpleNoteContent {
+    padding: 10px;
+}
+
+.simpleNoteTitle {
+}
+
+/*add new note*/
+.addNewNote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    background: #e03854;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 50px;
+}
