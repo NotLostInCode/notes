@@ -1,0 +1,51 @@
+.popupAddingNewNotes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 31, 71, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addingNewNotes {
+    color: #261f47ff;
+    background-color: #fff;
+    font-size: 32px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.addingNewNotesHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.title {
+    font-weight: 700;
+}
+.close {}
+.btnClose {
+    display: flex;
+    background-color: #e03854;
+    border-radius: 8px;
+    padding: 10px;
+}
+.closeImage {
+
+}
+
+.addingNewNotesContent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+.addingNewNotesItem {}
+.newNotes {}
+

@@ -24,17 +24,3 @@
 .simpleNoteTitle {
 }
 
-/*add new note*/
-.addNewNote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.add {
-    background: #e03854;
-    padding: 10px 25px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 50px;
-}

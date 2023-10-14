@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SimpleNote.module.css'
+import {AddNewNote} from "../../../AddNewNote/AddNewNote";
 
 export const SimpleNote = () => {
 
@@ -44,9 +45,7 @@ export const SimpleNote = () => {
             </div>
 
             {/*-----------*/}
-            <div className={`${styles.noteItem} ${styles.addNewNote}`}>
-                <button className={styles.add}>+</button>
-            </div>
+            <AddNewNote />
 
         </div>
     );
