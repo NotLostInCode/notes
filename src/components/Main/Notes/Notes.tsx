@@ -4,8 +4,8 @@ import {SimpleNote} from "./SimpleNote/SimpleNote";
 
 export const Notes = () => {
     return (
-        <div className={styles.containerNotes}>
+        <>
            <SimpleNote />
-        </div>
+        </>
     );
 };

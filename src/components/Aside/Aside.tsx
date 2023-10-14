@@ -10,6 +10,7 @@ import recording from '../../assets/icons/recording.svg'
 import sketches from '../../assets/icons/sketches.svg'
 import trash from '../../assets/icons/trash.svg'
 import {NavLink} from "react-router-dom";
+import {AddNewNote} from "../AddNewNote/AddNewNote";
 
 
 export const Aside = () => {
@@ -43,9 +44,15 @@ export const Aside = () => {
                     <input className={styles.search} placeholder={'Search note'} type="text"/>
                 </div>
 
-                <div className={styles.newNote}>
-                    <button className={styles.newNoteBtn}>New note</button>
-                </div>
+                {/*<div className={styles.newNote}>*/}
+                {/*    <button className={styles.newNoteBtn}>New note</button>*/}
+                {/*</div>*/}
+                {/*-----------*/}
+                <AddNewNote container={styles.newNote}
+                            btnStyles={styles.newNoteBtn}
+                            name={'New note'}
+                />
+
             </div>
 
             {/*------------------------*/}

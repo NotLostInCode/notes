@@ -45,7 +45,12 @@ export const SimpleNote = () => {
             </div>
 
             {/*-----------*/}
-            <AddNewNote />
+
+            <AddNewNote container={`${styles.noteItem} ${styles.addNewNote}`}
+                        btnStyles={styles.add}
+                        name={'+'}
+            />
+
 
         </div>
     );
