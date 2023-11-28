@@ -38,9 +38,3 @@
     color: #fff;
     font-size: 50px;
 }
-@media screen and (max-width: 768px) {
-
-    .simpleNote {
-        justify-content: end;
-    }
-}
